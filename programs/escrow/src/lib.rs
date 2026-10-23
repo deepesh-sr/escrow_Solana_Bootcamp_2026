@@ -28,4 +28,8 @@ pub mod escrow {
     pub fn take(ctx : Context<Take>)->Result<()>{
         take::take(ctx)
     }
+
+    pub fn refund(ctx : Context<Refund>)->Result<()>{
+        refund::refund(ctx)
+    }
 }

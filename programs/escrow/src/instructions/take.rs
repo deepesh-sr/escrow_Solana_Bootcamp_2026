@@ -1,7 +1,6 @@
 use anchor_lang::prelude::*; 
 use anchor_lang::system_program::{Transfer, transfer};
-use crate::error::ErrorCode;
-use crate::{Escrow, Make};
+use crate::Escrow;
 
 
 #[derive(Accounts)]
